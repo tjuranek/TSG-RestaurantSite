@@ -19,4 +19,19 @@
             break;
     }
 
-//todo: form validation
+//form validation
+    function submitForm() {
+        //get form inputs
+        var name = document.getElementById("inputName").nodeValue;
+        var email = document.getElementById("inputEmail").nodeValue;
+        var phone = document.getElementById("inputPhone").nodeValue;
+        var reason = document.getElementById("inputReason").nodeValue;
+        var info = document.getElementById("inputInfo").nodeValue;
+
+        if (name.length > 0 && email.length > 0 && phone.length > 0 && reason.length > 0 && info.length > 0) {
+            alert("Form submitted!");
+        }
+        else {
+            alert("Please fill out all form fields!");
+        }
+    }
