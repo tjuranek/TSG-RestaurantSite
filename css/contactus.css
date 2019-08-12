@@ -1,0 +1,13 @@
+.margin-top {
+    margin-top: 20px;
+}
+
+.col-form-label {
+    color: #b2afac;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #ffce2b;
+    border-color: #ffce2b;
+}

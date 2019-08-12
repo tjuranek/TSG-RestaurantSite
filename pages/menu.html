@@ -4,93 +4,155 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <noscript>
+        <meta http-equiv="refresh" content="0; url=enablejs.html" />
+    </noscript>
+
     <!--Framework CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
     <!--Theme CSS-->
-    <link rel="stylesheet" href="css/restaurantStyles.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/restaurantStyles.css">
+    <link rel="stylesheet" href="../css/menu.css">
 
-    <title>Home - Parfecto Pizza</title>
+    <title>Menu - Parfecto Pizza</title>
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h1>
-                    <span style="color: #ffce2b; margin-right: 0px;">PARFECTO</span>
-                    <span style="color: #ffffff; font-weight:bolder; margin-left: 0px;">PIZZA</span>
-                </h1>
-            </div>
-        </div>
-    </div>
-    <!--Nav-->
-    <nav class="navbar navbar-expand-lg" style="background-color: #ffffff;">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
+    <!--Page Content-->
+    <div class="main">
+        <!--Title-->
         <div class="container">
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav mr-auto">
-                    <a class="nav-item nav-link active" href="#">Home</a>
-                    <a class="nav-item nav-link" href="#">Menu</a>
-                    <a class="nav-item nav-link" href="#">Contact Us</a>
+            <div class="row">
+                <div class="col-12">
+                    <h1>
+                        <span style="color: #ffce2b; font-family: 'Source Sans Pro', sans-serif;">PARFECTO</span>
+                        <span style="color: #ffffff; font-family: 'Source Sans Pro', sans-serif;">PIZZA</span>
+                    </h1>
                 </div>
-
-                <span class="navbar-text">
-                    We're currently open!
-                </span>
-            </div>
-        </div>  
-    </nav>
-
-    <!--Restaurant-->
-    <div class="container">
-        <div class="row" style="padding-top: 15px; padding-bottom: 15px;">
-            <div class="col-lg-4 col-sm-12 text-center">
-                <p><b>Burger and Fries</b></p>
-                <p><i>An American Classic!</i></p>
-                <p>Your choice - with or without cheese. Pickle, onion, tomato, and lettuce servied with our famous thick cut french fries.</p>
-                <p>$7.95</p>
-            </div>
-            <div class="col-lg-4 col-sm-12 text-center">
-                <p><b>Hot Dog and Chips</b></p>
-                <p><i>A Summer Classic!</i></p>
-                <p>Your choice - white or wheat bun. Relish, mustard, and ketchup. Served with our house-made chips.</p>
-                <p>$7.95</p>
-            </div>
-            <div class="col-lg-4 col-sm-12 text-center">
-                <p><b>Italian Sausage and Peppers</b></p>
-                <p><i>An All-Time Favorite!</i></p>
-                <p>Your choice - mild or spicy Cole Slaw. Served with garlic mashers.</p>
-                <p>$10.95</p>
             </div>
         </div>
-        <div class="row" style="padding-top: 15px; padding-bottom: 15px;">
-            <div class="col-lg-4 col-sm-12 text-center">
-                <p><b>Tenderloin Sandwich and Chips</b></p>
-                <p><i>Really Hits the Spot!</i></p>
-                <p>Plain or Sesame Seed Bun, pickle, onion, tomato, and lettuce. Served with our house-made chips.</p>
-                <p>$8.95</p>
+
+        <!--Nav-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="container">
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav mr-auto">
+                        <a id="nav-link-home" class="nav-item nav-link nav-pills" href="home.html"><i class="fa fa-home" aria-hidden="true"></i></i>Home</a>
+                        <a id="nav-link-menu" class="nav-item nav-link nav-pills" href="menu.html">Menu</a>
+                        <a id="nav-link-contactus" class="nav-item nav-link nav-pills" href="contactus.html">Contact Us</a>
+                    </div>
+
+                    <span class="navbar-text">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    We're opening a new location!
+                                </div>
+                                <div class="carousel-item">
+                                    We're rolling out our seasonal menu, with special options for this season!
+                                </div>
+                                <div class="carousel-item">
+                                    The Drink of the Month is SG Special Brew.
+                                </div>
+                            </div>
+                        </div>
+                    </span>
+                </div>
+            </div>  
+        </nav>
+
+        <!--Menu-->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-12 text-center menu-item">
+                    <p><b>Burger and Fries</b></p>
+                    <p><i>An American Classic!</i></p>
+                    <p>Your choice - with or without cheese. Pickle, onion, tomato, and lettuce servied with our famous thick cut french fries.</p>
+                    <p>$7.95</p>
+                </div>
+                <div class="col-lg-4 col-sm-12 text-center menu-item">
+                    <p><b>Hot Dog and Chips</b></p>
+                    <p><i>A Summer Classic!</i></p>
+                    <p>Your choice - white or wheat bun. Rlish, mustard, and ketchup. Served with our house-made chips.</p>
+                    <p>$7.95</p>
+                </div>
+                <div class="col-lg-4 col-sm-12 text-center menu-item">
+                    <p><b>Italian Sausage and Peppers</b></p>
+                    <p><i>An All-Time Favorite!</i></p>
+                    <p>Your choice - mild or spicy Cole Slaw. Served with garlic mashers.</p>
+                    <p>$10.95</p>
+                </div>
             </div>
-            <div class="col-lg-4 col-sm-12 text-center">
-                <p><b>House Salad</b></p>
-                <p><i>On the Ligher Side</i></p>
-                <p>Your choice - with or without cheese. Iceberg lettuce, tomatoes, peppers, Thousand Island or Ranch Dressing served with a dinner roll.</p>
-                <p>$6.95</p>
+
+            <div class="row">
+                <div class="col-lg-4 col-sm-12 text-center menu-item">
+                    <p><b>Tenderloin Sandwich and Chips</b></p>
+                    <p><i>Really Hits the Spot!</i></p>
+                    <p>Plain or Sesame Seed Bun, pickle, onion, tomato, and lettuce. Served with our house-made chips.</p>
+                    <p>$8.95</p>
+                </div>
+                <div class="col-lg-4 col-sm-12 text-center menu-item">
+                    <p><b>House Salad</b></p>
+                    <p><i>On the Ligher Side</i></p>
+                    <p>Your choice - with or without cheese. Iceberg lettuce, tomatoes, peppers, Thousand Island or Ranch Dressing served with a dinner roll.</p>
+                    <p>$6.95</p>
+                </div>
+                <div class="col-lg-4 col-sm-12 text-center menu-item">
+                    <p><b>Brisket Sandwich and Fries</b></p>
+                    <p><i>A Taste of Texas!</i></p>
+                    <p>Smoked Brisket on thick-cut texas toast, cole slaw, served with our famous thick-cut french fries.</p>
+                    <p>$7.95</p>
+                </div>
             </div>
-            <div class="col-lg-4 col-sm-12 text-center">
-                <p><b>Brisket Sandwich and Fries</b></p>
-                <p><i>A Taste of Texas!</i></p>
-                <p>Smoked Brisket on thick-cut texas toast, cole slaw, served with our famous thick-cut french fries.</p>
-                <p>$7.95</p>
+
+            <div class="row">
+                <div class="col-12 menu-item">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                            <th scope="col">Beverages</th>
+                            <th scope="col">Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Root Beer</td>
+                                <td>$3.00</td>
+                            </tr>
+                            <tr>
+                                <td>Bottled Water</td>
+                                <td>$1.25</td>
+                            </tr>
+                            <tr>
+                                <td>Lemonade</td>
+                                <td>$1.00</td>
+                            </tr>
+                            <tr>
+                                <td>Iced Tea</td>
+                                <td>$1.25</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
+
+            <br>
+            <br>
         </div>
+
+        <!--Footer Spacing-->
+        <div class="push"></div>
     </div>
     
-
+    <!--Page Footer-->
     <footer>
-        <div class="row" style="margin-top: 20px;">
+        <div class="row margin-top">
             <div class="col-md-6 text-center">
                 <p>6200 Tiger Lane, Nisswa, MN, 56468</p>
             </div>
@@ -104,5 +166,8 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+    <!--Theme JS-->
+    <script src="../js/restaurantScripts.js"></script>
 </body>
 </html>
