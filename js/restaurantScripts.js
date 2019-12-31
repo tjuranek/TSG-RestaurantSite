@@ -27,7 +27,7 @@
         var phone = document.getElementById("inputPhone").nodeValue;
 
         if (name != "" && email != "" && phone != "") {
-            alert("Form submitted!");
+            alert("Form submitted!\nsick");
         }
         else {
             alert("Please fill out all form fields!");
